@@ -1,0 +1,13 @@
+// Lista Circular
+digraph {
+	Juan
+	Juan -> Maria
+	Maria
+	Maria -> Pablo
+	Pablo
+	Pablo -> Ana
+	Ana
+	Ana -> Luis
+	Luis
+	Luis -> Juan
+}

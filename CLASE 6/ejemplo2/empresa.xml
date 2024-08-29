@@ -1,0 +1,32 @@
+<empresas>
+    <empresa>
+        <nombre>Empresa A</nombre>
+        <empleados>
+            <empleado>
+                <nombre>Juan Perez</nombre>
+                <puesto>Gerente</puesto>
+                <sueldo>5000</sueldo>
+            </empleado>
+            <empleado>
+                <nombre>Maria Gomez</nombre>
+                <puesto>Desarrollador</puesto>
+                <sueldo>3000</sueldo>
+            </empleado>
+        </empleados>
+    </empresa>
+    <empresa>
+        <nombre>Empresa B</nombre>
+        <empleados>
+            <empleado>
+                <nombre>Carlos Diaz</nombre>
+                <puesto>Contador</puesto>
+                <sueldo>4000</sueldo>
+            </empleado>
+            <empleado>
+                <nombre>Lucia Fernandez</nombre>
+                <puesto>Analista</puesto>
+                <sueldo>3500</sueldo>
+            </empleado>
+        </empleados>
+    </empresa>
+</empresas>

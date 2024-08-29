@@ -1,0 +1,56 @@
+// Grafica
+digraph {
+	A [label=Matrices]
+	B [label="#1matriz n = 5 m = 5"]
+	A -> B
+	1 [label=911]
+	2 [label=0]
+	3 [label=0]
+	4 [label=821]
+	5 [label=982]
+	6 [label=324]
+	7 [label=0]
+	8 [label=432]
+	9 [label=5]
+	10 [label=6]
+	11 [label=314]
+	12 [label=0]
+	13 [label=104]
+	14 [label=0]
+	15 [label=632]
+	16 [label=912]
+	17 [label=0]
+	18 [label=0]
+	19 [label=910]
+	20 [label=681]
+	21 [label=831]
+	22 [label=0]
+	23 [label=102]
+	24 [label=0]
+	25 [label=677]
+	B -> 1
+	B -> 2
+	B -> 3
+	B -> 4
+	B -> 5
+	1 -> 6
+	2 -> 7
+	3 -> 8
+	4 -> 9
+	5 -> 10
+	6 -> 11
+	7 -> 12
+	8 -> 13
+	9 -> 14
+	10 -> 15
+	11 -> 16
+	12 -> 17
+	13 -> 18
+	14 -> 19
+	15 -> 20
+	16 -> 21
+	17 -> 22
+	18 -> 23
+	19 -> 24
+	20 -> 25
+}

@@ -1,0 +1,27 @@
+// Empresas y Empleados
+digraph {
+	Empresas [label="Empresas
+(x=2, y=4)"]
+	"Empresa A" [label="Empresa A"]
+	Empresas -> "Empresa A"
+	"Juan Perez" [label="Juan Perez
+Puesto: Gerente
+Sueldo: 5000"]
+	"Empresa A" -> "Juan Perez"
+	"Juan Perez" -> "Maria Gomez"
+	"Maria Gomez" [label="Maria Gomez
+Puesto: Desarrollador
+Sueldo: 3000"]
+	"Maria Gomez" -> "Juan Perez" [constraint=false]
+	"Empresa B" [label="Empresa B"]
+	Empresas -> "Empresa B"
+	"Carlos Diaz" [label="Carlos Diaz
+Puesto: Contador
+Sueldo: 4000"]
+	"Empresa B" -> "Carlos Diaz"
+	"Carlos Diaz" -> "Lucia Fernandez"
+	"Lucia Fernandez" [label="Lucia Fernandez
+Puesto: Analista
+Sueldo: 3500"]
+	"Lucia Fernandez" -> "Carlos Diaz" [constraint=false]
+}
