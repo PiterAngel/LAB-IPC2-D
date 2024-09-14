@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CARGAR XML  </title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+      }
+      th { 
+        background-color: #f2f2f2;
+    
+    }
+    </style>
+
+
+
+
+</head>
+<body>
+<h1> Cargar Archivo XML xdddddddddd </h1>
+<form action="/" methods="POST" encrypte="multipart/from-data">
+    <input type="file" name="file" accept=".xml">
+    <input type="submit" class="btn btn-outline-warning" value="Cargar xml">
+</form >
+
+
+{% if name1 %}
+    <h2>Contenido del XML</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ name1 }}</td>
+                <td>{{ age1 }}</td>
+                <td>{{ city1 }}</td>
+            </tr>
+            {% if name2 %}
+                <tr>
+                    <td>{{ name2 }}</td>
+                    <td>{{ age2 }}</td>
+                    <td>{{ city2 }}</td>
+                </tr>
+            {% endif %}
+        </tbody>
+    </table>
+{% endif %}
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
