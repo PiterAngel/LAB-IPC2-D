@@ -1,0 +1,37 @@
+/* Estilos para centrar el formulario usando flexbox */
+body {
+    display: flex;
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;      /* Centrar verticalmente */
+    height: 100vh;            /* Altura de la ventana */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Color de fondo suave */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;             /* Ancho del formulario */
+    text-align: center;       /* Centrar el contenido dentro del formulario */
+}
+
+textarea {
+    width: 100%;              /* Hacer que los textareas ocupen todo el ancho */
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
